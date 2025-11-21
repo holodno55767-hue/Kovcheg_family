@@ -91,8 +91,8 @@ particlesJS("particles-js", {
 
 // ================ ОТПРАВКА ФОРМЫ В TELEGRAM ==================
 // ВСТАВЬ СВОИ ДАННЫЕ:
-const TG_BOT_TOKEN = "ТОКЕН_ТВОЕГО_БОТА";
-const TG_CHAT_ID = "ТВОЙ_CHAT_ID";
+const TG_BOT_TOKEN = "8552340428:AAHWcLOqBloAM0TkFwXikdbNTj7PE6lWn1I";
+const TG_CHAT_ID = "5093389044";
 
 const form = document.getElementById("join-form");
 const statusBox = document.getElementById("form-status");
@@ -102,8 +102,8 @@ if (form) {
     e.preventDefault();
 
     if (
-      TG_BOT_TOKEN === "ТОКЕН_ТВОЕГО_БОТА" ||
-      TG_CHAT_ID === "ТВОЙ_CHAT_ID"
+      TG_BOT_TOKEN === "8552340428:AAHWcLOqBloAM0TkFwXikdbNTj7PE6lWn1I" ||
+      TG_CHAT_ID === "5093389044"
     ) {
       statusBox.textContent =
         "Ошибка конфигурации: владелец сайта ещё не настроил Telegram-бота.";
